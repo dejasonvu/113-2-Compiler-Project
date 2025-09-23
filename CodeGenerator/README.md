@@ -10,8 +10,7 @@
 ```sh
 make
 ```
-即可完成編譯並取得 mycompiler。
-
+即可完成編譯並取得 mycompiler。  
 假設 test.rs 是你想處理的 μRust 程式碼， 接著輸入
 ```sh
 ./mycompiler < test.rs
@@ -22,8 +21,7 @@ make
 make Main.class
 make run
 ```
-便可完成。
-
+便可完成。  
 在此使用以下的 μRust 程式碼為例子：
 ```sh
 fn main() { // Your first μrust program
@@ -33,7 +31,7 @@ fn main() { // Your first μrust program
     */
 }
 ```
-轉換後的 Jasmin 指令檔內容為：
+轉換後的 Jasmin 指令檔內容：
 ```sh
 .source Main.j
 .class public Main
