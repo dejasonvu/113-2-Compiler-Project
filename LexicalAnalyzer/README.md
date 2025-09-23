@@ -1,9 +1,8 @@
-# μRust Compiler Implementation
-該課程專案為國立成功大學資訊工程學系113-2學期編譯系統之三次作業彙整，
+# Lexical Analyzer（Scanner）
+該 Scanner 為 μRust Compiler 的模組之一，
 
-在 μRust Compiler 中，我分別實作：
-- `Lexical Analyzer`（Scanner）
-- `Syntax Analyzer`（Parser）
-- `Code Generator`
+負責將原始 μRust 程式碼切成 Token，
 
-上述所屬資料夾的 README.md 有對應介紹。
+並由 Flex（代替 Lex）實作。
+## Introduction
+
