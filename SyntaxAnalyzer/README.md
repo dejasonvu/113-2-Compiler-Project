@@ -13,7 +13,7 @@ make
 ```
 即可完成編譯並取得 myparser。  
 由於 parser 會利用到 Token，因此使用時還是以 μRust 程式碼傳入給 myparser。  
-假設 test.rs 是你想處理的 μRust 程式碼，請輸入：
+假設 test.rs 是你想處理的 μRust 程式碼，接著輸入：
 ```sh
 ./myparser < test.rs
 ```
