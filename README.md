@@ -6,4 +6,4 @@
 - `Syntax Analyzer`（Parser）
 - `Code Generator`
 
-上述所屬資料夾的 README.md 有對應介紹。
+上述對應資料夾的 README.md 有更詳細介紹。
