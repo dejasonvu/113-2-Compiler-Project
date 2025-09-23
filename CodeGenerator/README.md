@@ -13,4 +13,13 @@ make
 即可完成編譯並取得 mycompiler。
 假設 test.rs 是你想處理的 μRust 程式碼， 接著輸入
 ```sh
-./myscanner < test.rs
+./mycompiler < test.rs
+```
+就能得到對應的 Jasmin 指令檔（檔名為 Main.j）。  
+如果想要進一步得到轉換後的 Java Bytecode 和執行程式，可輸入：
+```sh
+make Main.class
+make run
+```
+即完成。
+
