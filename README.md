@@ -6,4 +6,4 @@
 - `Code Generator`
   
 上述對應資料夾的 README.md 有提供更詳細的介紹（功能、用法及範例），歡迎參閱。  
-在此先建議安裝 Flex 與 Bison。
+在此建議先安裝 Flex 與 Bison。
