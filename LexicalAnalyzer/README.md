@@ -10,14 +10,12 @@
 ```sh
 make
 ```
-即可完成編譯並取得 myscanner。
-
+即可完成編譯並取得 myscanner。  
 假設 test.rs 是你想處理的 μRust 程式碼， 接著輸入
 ```sh
 ./myscanner < test.rs
 ```
-就能得到切割完的 Token。
-
+就能得到切割完的 Token。  
 在此使用以下的 μRust 程式碼為例子：
 ```sh
 fn main() { // Your first μrust program
@@ -27,7 +25,7 @@ fn main() { // Your first μrust program
     */
 }
 ```
-其輸出結果為：
+其輸出結果：
 ```sh
 fn               FUNC
 main             IDENT
