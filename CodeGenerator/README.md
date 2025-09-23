@@ -6,12 +6,12 @@
 - 生成的 Jasmin 指令檔能再透過 Jasmin 轉換成 Java Bytecode
 - 再將其交給 JVM 得到程式執行結果
 ## Example
-該資料夾有提供 Makefile，只要打上
+該資料夾有提供 Makefile，只要打上：
 ```sh
 make
 ```
 即可完成編譯並取得 mycompiler。  
-假設 test.rs 是你想處理的 μRust 程式碼， 接著輸入
+假設 test.rs 是你想處理的 μRust 程式碼， 接著輸入：
 ```sh
 ./mycompiler < test.rs
 ```
