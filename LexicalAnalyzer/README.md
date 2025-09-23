@@ -6,12 +6,12 @@
 - 支援統計原程式碼的總行數和註解行數
 - 透過 State 的功能判斷是否為字串或是多行註解
 ## Example
-此資料夾有提供 Makefile，只要打上
+此資料夾有提供 Makefile，只要打上：
 ```sh
 make
 ```
 即可完成編譯並取得 myscanner。  
-假設 test.rs 是你想處理的 μRust 程式碼， 接著輸入
+假設 test.rs 是你想處理的 μRust 程式碼， 接著輸入：
 ```sh
 ./myscanner < test.rs
 ```
