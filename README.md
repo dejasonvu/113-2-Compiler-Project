@@ -6,8 +6,4 @@
 - `Syntax Analyzer`（Parser）
 - `Code Generator`
 
-這三樣目錄會有對應的介紹。
-
-# Requirement
-- `Flex`（我以 Flex 代替 Lex 實作 Lexical Analyzer）
-- `Yacc`
+上述所屬資料夾的 README.md 有對應介紹。
