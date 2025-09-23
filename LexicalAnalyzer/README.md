@@ -17,6 +17,7 @@ make
 ./myscanner < test.rs
 ```
 就能得到切割完的 Token。
+
 在此使用以下的 μRust 程式碼為例子：
 ```sh
 fn main() { // Your first μrust program
