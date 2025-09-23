@@ -13,9 +13,10 @@ make
 即可完成編譯並取得 mycompiler。
 假設 test.rs 是你想處理的 μRust 程式碼， 接著輸入
 ```sh
-./myscanner < test.rs
+./mycompiler < test.rs
 ```
-就能得到切割完的 Token。
+即可取得對應的 Jasmin 指令檔（檔名為：asm.j）。
+
 在此使用以下的 μRust 程式碼為例子：
 ```sh
 fn main() { // Your first μrust program
