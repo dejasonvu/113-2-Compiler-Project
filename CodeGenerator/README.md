@@ -11,6 +11,7 @@
 make
 ```
 即可完成編譯並取得 mycompiler。
+
 假設 test.rs 是你想處理的 μRust 程式碼， 接著輸入
 ```sh
 ./mycompiler < test.rs
