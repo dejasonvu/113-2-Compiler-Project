@@ -13,11 +13,13 @@ make
 ```
 即可完成編譯並取得 myparser。
 由於 parser 會利用到 Token，因此使用時還是以 μRust 程式碼傳入給 myparser。
+
 假設 test.rs 是你想處理的 μRust 程式碼，請輸入
 ```sh
 ./myparser < test.rs
 ```
 就能得到按照順序輸出的 Token，以及符號表的操作過程。
+
 在此使用以下的 μRust 程式碼為例子：
 ```sh
 fn main() { // Your first μrust program
