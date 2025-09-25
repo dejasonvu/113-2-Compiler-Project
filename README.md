@@ -1,5 +1,5 @@
 # μRust Compiler Implementation
-該課程專案為國立成功大學資訊工程學系113-2學期編譯系統之三次作業彙整，在 μRust Compiler 中，我分別實作以下模組：
+該課程專案為國立成功大學資訊工程學系113-2學期編譯系統之三次作業彙整，在 μRust Compiler 的開發中，我分別實作以下模組：
 - **[Lexical Analyzer](./LexicalAnalyzer)** - 負責將 μRust 程式碼切成 Token
 - **[Syntax Analyzer](./SyntaxAnalyzer)** - 針對已切割的 Token 做語法分析，同時進行符號表操作
 - **[Code Generator](./CodeGenerator)** - 生成 Jasmin 指令串，後續可再轉成 Java Bytecode 並傳入 JVM 執行程式
