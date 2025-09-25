@@ -1,6 +1,7 @@
 # Code Generator
-該 Code Generator 為 μRust Compiler 的模組之一，主要負責產生與原始 μRust 程式碼相對應的 Jasmin 指令檔。  
-該模組沿用 Parser 架構進一步實作。
+該 Code Generator 為 μRust Compiler 的模組之一，
+基於 Parser 架構實作，
+主要負責產生與原始 μRust 程式碼相對應的 Jasmin 指令檔。  
 ## Introduction
 - 取代原先 Parser 進行語法分析時順帶做的語意動作，並改輸出對應的 Jasmin 指令
 - 生成的 Jasmin 指令檔能再透過 Jasmin 轉換成 Java Bytecode
@@ -10,18 +11,21 @@
 ```sh
 make
 ```
-即可完成編譯並取得 mycompiler。  
+即可完成編譯並取得 mycompiler。
+
 假設 test.rs 是你想處理的 μRust 程式碼， 接著輸入：
 ```sh
 ./mycompiler < test.rs
 ```
-就能得到對應的 Jasmin 指令檔（檔名為 Main.j）。  
-如果想要進一步得到轉換後的 Java Bytecode 和執行程式，再輸入：
+就能得到對應的 Jasmin 指令檔（檔名為 Main.j）。
+
+如果後續想要得到轉換後的 Java Bytecode 和執行程式，再輸入：
 ```sh
 make Main.class
 make run
 ```
-便可完成。  
+便可完成。
+
 在此使用以下的 μRust 程式碼為例子：
 ```sh
 fn main() { // Your first μrust program
