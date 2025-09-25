@@ -1,6 +1,7 @@
 # Lexical Analyzer（Scanner）
-該 Scanner 為 μRust Compiler 的模組之一，主要負責將原始 μRust 程式碼切割成 Token。  
-該模組由 Flex（代替 Lex）實作。
+該 Scanner 為 μRust Compiler 的模組之一，
+由 Flex 工具實作詞法分析，
+主要負責將原始 μRust 程式碼切割成 Token。
 ## Introduction
 - 從 μRust 程式碼取出 Token 並正確標示
 - 支援統計原程式碼的總行數和註解行數
