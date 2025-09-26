@@ -1,6 +1,6 @@
 # Code Generator
 該 Code Generator 為 μRust Compiler 的模組之一，
-基於 Parser 架構實作，
+沿用既有 Parser 架構實作，
 主要負責產生與原始 μRust 程式碼相對應的 Jasmin 指令檔。  
 ## Introduction
 - 取代原先 Parser 進行語法分析時順帶做的語意動作，並改輸出對應的 Jasmin 指令
